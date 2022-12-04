@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - instant_preview_arkit_arcore (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - instant_preview_arkit_arcore (from `.symlinks/plugins/instant_preview_arkit_arcore/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  instant_preview_arkit_arcore:
+    :path: ".symlinks/plugins/instant_preview_arkit_arcore/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  instant_preview_arkit_arcore: 20fd70a7de0a71ec7726a451c5327ee15393409d
+
+PODFILE CHECKSUM: cc1f88378b4bfcf93a6ce00d2c587857c6008d3b
+
+COCOAPODS: 1.11.3
