@@ -24,7 +24,7 @@ abstract class InstantPreviewArkitArcorePlatform extends PlatformInterface {
     _instance = instance;
   }
 
-  Future<bool> showPreviewArLocal({required String path}) {
+  Future<void> showPreviewAr({required String reference}) {
     throw UnimplementedError('platformVersion() has not been implemented.');
   }
 }

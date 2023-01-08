@@ -11,9 +11,7 @@ class MethodChannelInstantPreviewArkitArcore
   final methodChannel = const MethodChannel('instant_preview_arkit_arcore');
 
   @override
-  Future<bool> showPreviewArLocal({required String path}) async {
-    final result =
-        await methodChannel.invokeMethod<bool>('showPreviewArLocal', path);
-    return result ?? false;
+  Future<void> showPreviewAr({required String reference}) async {
+    await methodChannel.invokeMethod<bool>('showPreviewAr', reference);
   }
 }

@@ -29,7 +29,7 @@ class InstantPreviewArkitArcorePlugin: FlutterPlugin, MethodCallHandler {
   }
 
   override fun onMethodCall(@NonNull call: MethodCall, @NonNull result: Result) {
-    if (call.method == "showPreviewArLocal") {
+    if (call.method == "showPreviewAr") {
       var path = call.arguments as String
       val sceneViewerIntent = Intent(Intent.ACTION_VIEW)
       val intentUri = Uri.parse("https://arvr.google.com/scene-viewer/1.0").buildUpon()

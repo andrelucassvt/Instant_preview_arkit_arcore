@@ -11,7 +11,7 @@ public class SwiftInstantPreviewArkitArcorePlugin: NSObject, FlutterPlugin {
   }
 
   public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
-      if (call.method == "showPreviewArLocal") {
+      if (call.method == "showPreviewAr") {
           if let path = call.arguments as? String{
               if let rootViewController = topViewController() {
                   let arQuickLook = ARQLViewController(assetName: path)
